@@ -1,0 +1,38 @@
+/*Estilo geral*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+    background-color: rgba(43, 94, 139, 0.532);
+}
+
+h1 {
+    color: brown;
+    background-color: blue;
+    align-items: center;
+}
+
+header {
+    display: inline;
+    padding: 10px;
+    justify-content: inline;
+    align-items: center;
+}
+
+ul {
+    display:inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+.logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 30%;
+    border: 2px solid greenyellow;
+}

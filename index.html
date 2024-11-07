@@ -3,31 +3,36 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@LEOGUERCI34</title>
-    <link rel="stylesheet" href="style.css">
+    <title>camisas.ltda</title>
+    <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     
-</head>
 <body>
-    <header>
+    <header class="dropdown">
         <div class="interface">
-            <div class="logotipo">
-                <a href="#"><img src="img\logo.png" alt=""></a>
+            <h1>CAMISA.LTDA</h1>
+            <div class="logo">
+                <a href="index.html"><img src="img/cabide.png" alt="logo.camisas.ltda"></a>
             </div>
-            <div class="interface">
-                <nav>
+            <div class="menu">
+                <nav id="menu.h">
                     <ul>
-                        <li><a href="index.html">MENU</a></li>
-                        <li><a href="produto.html">PRODUTOS</a></li>
-                        <li><a href="servico.html">SERVIÇOS</a></li>
-                        <li><a href="contato.html">CONTATOS</a></li>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">SERVIÇOS</a></li>
+                        <li><a href="#">PRODUTOS</a></li>
+                        <li><a href="#">CONTATOS</a></li>
                     </ul>
                 </nav>
-                <button><a href="#">REGISTRAR</a></button>
-                <button><a href="#">LOGIN</a></button>
-                <h1>MENU</h1>
+                <form>
+                    <label for="fname">LOGIN:</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="lname">SENHA:</label><br>
+                    <input type="password" id="lname" name="lname">
+                    <button type="button" onclick="alert('Registrar Aqui')"><a href="">REGISTRAR:</a></button>
+                    <input type="submit" value="ENVIAR">
+                </form>
+                
             </div>
         </div>
     </header>
