@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="interface">
+            <h1>CAMISAS.LTDA</h1>
+            <div class="logo">
+                <a href="#"><img src="img\logo.png" alt=""></a>
+            </div>
+            <div class="interface">
+                <menu>                                                          
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="produto.html">PRODUTOS</a></li>
+                        <li><a href="servico.html">SERVIÇOS</a></li>
+                        <li><a href="contato.html">CONTATOS</a></li>
+                    </ul>                    
+                    <h2>REGISTRO</h2>
+                </menu>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="interface">
+            <form action="action_page.php">
+                <div class="container">
+                    <hr>
+                    <p><strong><U>POR FAVOR;</U> insira <U>AQUI</U> seus dados!</strong></p>               
+                    <label for="fname">Primeiro Nome:</label>
+                    <input type="text" placeholder="Seu primeiro Nome" id="fname" name="fname"><br>
+                    <label for="lname">Sobrenome:</label>
+                    <input type="text" placeholder="Seu sobrenome" id="lname" name="lname"><br>
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Entre com seu Email" name="email" id="email" required><br>
+                    <label for="psw-repeat"><b>SENHA</b></label>
+                    <input type="password" placeholder="Password" name="psw-repeat" id="psw-repeat" required><br>
+                    <label for="number">Telefone</label>
+                    <input type="number" placeholder="Telefone" name="telefone" id="telefone"><br>
+                    <label for="number">Celular</label>
+                    <input type="number" placeholder="Celular" nam ="telefone" id="telefone"><br>
+                    <input type="submit" value="ENVIAR">
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

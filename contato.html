@@ -5,27 +5,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@LEOGUERCI34</title>
+    <title>CAMISAS.LTDA</title>
     <link rel="stylesheet" href="style.css"> 
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">   
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">   
 </head>
 <body>
     <header>
         <div class="interface">
-            <div class="logotipo">
+            <h1>CAMISAS.LTDA</h1>
+            <div class="logo">
                 <a href="#"><img src="img\logo.png" alt=""></a>
             </div>
             <div class="interface">
                 <menu>                                                          
                     <ul>
-                        <li><a href="index.html">MENU</a></li>
+                        <li><a href="index.html">HOME</a></li>
                         <li><a href="produto.html">PRODUTOS</a></li>
                         <li><a href="servico.html">SERVIÇOS</a></li>
                         <li><a href="contato.html">CONTATOS</a></li>
                     </ul>
-                    <button><a href="#">REGISTRAR</a></button>
-                    <button><a href="#">LOGIN</a></button>
-                    <h1>CONTATOS</h1>
+                    <form>
+                        <label for="email"><b>Email</b></label>
+                        <input type="text" placeholder="Enter Email" name="email" id="email" required>
+                        <label for="psw-repeat"><b>SENHA</b></label>
+                        <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+                        <button type="button" onclick="alert('Registrar Aqui')"><a href="cadastro.html">REGISTRAR:</a></button>
+                        <input type="submit" value="ENVIAR">
+                    </form>
+                    <h2>CONTATOS</h2>
                 </menu>
             </div>
         </div>

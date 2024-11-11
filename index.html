@@ -4,37 +4,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>camisas.ltda</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>CAMISAS.LTDA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     
 <body>
     <header class="dropdown">
         <div class="interface">
             <h1>CAMISA.LTDA</h1>
             <div class="logo">
-                <a href="index.html"><img src="img/cabide.png" alt="logo.camisas.ltda"></a>
+                <a href="index.html"><img src="img/logo.png" alt="logo.camisas.ltda"></a>
             </div>
             <div class="menu">
                 <nav id="menu.h">
                     <ul>
-                        <li><a href="#">HOME</a></li>
-                        <li><a href="#">SERVIÇOS</a></li>
-                        <li><a href="#">PRODUTOS</a></li>
-                        <li><a href="#">CONTATOS</a></li>
+                        <li><a href="index.html">HOME</a></li>                        
+                        <li><a href="produto.html">PRODUTOS</a></li>
+                        <li><a href="servico.html">SERVIÇOS</a></li>
+                        <li><a href="contato.html">CONTATOS</a></li>
                     </ul>
                 </nav>
                 <form>
-                    <label for="fname">LOGIN:</label><br>
-                    <input type="text" id="fname" name="fname"><br>
-                    <label for="lname">SENHA:</label><br>
-                    <input type="password" id="lname" name="lname">
-                    <button type="button" onclick="alert('Registrar Aqui')"><a href="">REGISTRAR:</a></button>
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+                    <label for="psw-repeat"><b>SENHA</b></label>
+                    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+                    <button type="button" onclick="alert('Registrar Aqui')"><a href="cadastro.html">REGISTRAR:</a></button>
                     <input type="submit" value="ENVIAR">
                 </form>
-                
+                <h2>MENU</h2>
             </div>
         </div>
     </header>
+    <main>
+        <section>
+            <div class="container">
+                <div class="row">
+                  <div class="col-sm-4">
+                    <h3>TIMES</h3>
+                    <p>Lorem ipsum dolor..</p>
+                  </div>
+                  <div class="col-sm-4">
+                    <h3>SOCIAL</h3>
+                    <p>Lorem ipsum dolor..</p>
+                  </div>
+                  <div class="col-sm-4">
+                    <h3>CASUAL</h3>
+                    <p>Lorem ipsum dolor..</p>
+                  </div>
+                  <div class="col-sm-4">
+                    <h3>CAMISETAS</h3>
+                    <p>Lorem ipsum dolor..</p>
+                  </div>
+                </div>
+              </div>
+        </section>
+    </main>
 </body>
 </html>
